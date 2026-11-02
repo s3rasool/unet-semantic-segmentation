@@ -12,7 +12,7 @@ This repository contains a TensorFlow/Keras implementation of the **U-Net archit
 * **Dataset:** Synthetic geometric shapes with corresponding segmentation masks
 
 ---
-
+![توضیح عکس](notebooks/Unet.png)
 ## 📁 Repository Structure
 
 ```text

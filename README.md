@@ -12,28 +12,9 @@ This repository contains a TensorFlow/Keras implementation of the **U-Net archit
 * **Dataset:** Synthetic geometric shapes with corresponding segmentation masks
 
 ---
-![توضیح عکس](notebooks/Unet.png)
-## 📁 Repository Structure
+## Model architecture
 
-```text
-.
-├── data/                       # Dataset directory (Excluded from Git tracking)
-│   ├── train/                  # Training set (200 images & masks)
-│   │   ├── images/
-│   │   └── masks/
-│   └── test/                   # Evaluation set (40 images)
-│       └── images/
-├── models/                     # Saved model artifacts & weights (Excluded from Git)
-│   └── unet_trained_model/
-│       ├── config.json
-│       ├── metadata.json
-│       └── model.weights.h5
-├── notebooks/                  # Jupyter notebooks & visual assets
-│   ├── Unet.png                # Architecture diagrams / results
-│   └── unet-segmentation-train.ipynb
-├── .gitignore                  # Git tracking rules
-└── README.md                   # Project documentation
-```
+![توضیح عکس](notebooks/Unet.png)
 
 ## 📊 Model & Training Details
 
